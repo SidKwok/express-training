@@ -1,0 +1,38 @@
+{
+  "name": "express-training",
+  "version": "1.0.0",
+  "description": "> template and guide of express",
+  "main": "index.js",
+  "scripts": {
+    "hello-world": "node ./hello-world/index.js",
+    "route-map": "node ./route-map/index.js",
+    "route-middleware": "node ./route-middleware/index.js",
+    "ejs": "node ./ejs/index.js",
+    "jade": "node ./jade/index.js",
+    "pug": "node ./pug/index.js",
+    "big-view": "node ./big-view/index.js",
+    "markdown": "node ./markdown/index.js",
+    "static-files": "node ./static-files/index.js",
+    "web-service": "node ./web-service/index.js",
+    "error": "node ./error/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SidKwok/express-training.git"
+  },
+  "author": "Sid Kwok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SidKwok/express-training/issues"
+  },
+  "homepage": "https://github.com/SidKwok/express-training#readme",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "escape-html": "^1.0.3",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "marked": "^0.3.6",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta6"
+  }
+}
