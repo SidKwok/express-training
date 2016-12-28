@@ -14,7 +14,11 @@
     "markdown": "node ./markdown/index.js",
     "static-files": "node ./static-files/index.js",
     "web-service": "node ./web-service/index.js",
-    "error": "node ./error/index.js"
+    "error": "node ./error/index.js",
+    "error-pages": "node ./error-pages/index.js",
+    "error-pages:dev": "NODE_ENV=production node ./error-pages/index.js",
+    "downloads": "node ./downloads/index.js",
+    "cookies": "node ./cookies/index.js"
   },
   "repository": {
     "type": "git",
@@ -34,5 +38,9 @@
     "marked": "^0.3.6",
     "morgan": "^1.7.0",
     "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3"
   }
 }
