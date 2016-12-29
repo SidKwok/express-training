@@ -18,7 +18,9 @@
     "error-pages": "node ./error-pages/index.js",
     "error-pages:dev": "NODE_ENV=production node ./error-pages/index.js",
     "downloads": "node ./downloads/index.js",
-    "cookies": "node ./cookies/index.js"
+    "cookies": "node ./cookies/index.js",
+    "params": "node ./params/index.js",
+    "cookie-sessions": "node ./cookie-sessions/index.js"
   },
   "repository": {
     "type": "git",
@@ -41,6 +43,7 @@
   },
   "devDependencies": {
     "body-parser": "^1.15.2",
-    "cookie-parser": "^1.4.3"
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-alpha.2"
   }
 }
